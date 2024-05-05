@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: rgb(255, 127, 80);
+    color: #fff;
+    padding: 32px;
+    text-align: center;
+}
+
+#navbar img {
+    width: 120px;
+    height: 120px;
+}
+
+.navlinks {
+    list-style: none;
+    padding: 0;
+}
+
+.navlinks li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.navlinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    color: rgb(248, 208, 83);
+}
+
+.banner-info h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: rgb(248, 208, 83);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(208, 182, 62);
+}
+
