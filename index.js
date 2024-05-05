@@ -54,3 +54,27 @@ document.addEventListener("DOMContentLoaded", () => {
         catsLink.textContent = 'DONATE';
     });
 });
+
+// Fetch data from the Dog API
+fetch('https://dog.ceo/api/breeds/image/random/5')
+.then(response => response.json())
+.then(data => {
+const petCards = document.querySelectorAll('#dogs .pet-profile img');
+petCards.forEach((img, index) => {
+img.src = data.message[index];
+img.alt = 'Dog';
+});
+})
+.catch(error => console.error('Error fetching dog data:', error));
+
+// Fetch data from The Cat API
+fetch('https://api.thecatapi.com/v1/images/search?limit=5')
+.then(response => response.json())
+.then(data => {
+const petCards = document.querySelectorAll('#cats .pet-profile img');
+petCards.forEach((img, index) => {
+img.src = data[index].url;
+img.alt = 'Cat';
+});
+})
+.catch(error => console.error('Error fetching cat data:', error));
