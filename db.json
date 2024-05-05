@@ -1,0 +1,16 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "username": "Adan bashir",
+      "email": "imdedsec1120@gmail.com",
+      "password": "**********"
+    },
+    {
+      "id": "5799",
+      "username": "bashir",
+      "email": "adan.bashir@student.moringaschool.com",
+      "password": "123456789"
+    }
+  ]
+}
