@@ -18,3 +18,39 @@ document.addEventListener("keydown", (event) => {
     }
 });
 
+// Mouse enter && Mouse leave Events
+document.addEventListener("DOMContentLoaded", () => {
+    const catsLink = document.getElementById("catslk");
+
+    catsLink.addEventListener("mouseenter", () => {
+        catsLink.textContent = 'MEOW!';
+    });
+
+    catsLink.addEventListener("mouseleave", () => {
+        catsLink.textContent = 'CATS';
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const catsLink = document.getElementById("dogslk");
+
+    catsLink.addEventListener("mouseenter", () => {
+        catsLink.textContent = 'BARK!';
+    });
+
+    catsLink.addEventListener("mouseleave", () => {
+        catsLink.textContent = 'DOGS';
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const catsLink = document.getElementById("donatelk");
+
+    catsLink.addEventListener("mouseenter", () => {
+        catsLink.textContent = '$$$';
+    });
+
+    catsLink.addEventListener("mouseleave", () => {
+        catsLink.textContent = 'DONATE';
+    });
+});
