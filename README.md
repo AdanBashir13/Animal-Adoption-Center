@@ -1,6 +1,6 @@
 # Animal-Adoption-Centre
 
-This is an animal adoption centre website that allows users to adopt their favorite dog or cat. It also allows users to donate, all these is done by signing up when a user clicks on a donate or adopt now button.
+This is an animal adoption center website that allows users to adopt their favorite dog or cat. It also allows users to donate, all these is done by signing up when a user clicks on a donate or adopt now button.
 
 ## Desciption
 
