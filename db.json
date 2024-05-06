@@ -1,7 +1,7 @@
 {
   "signup": [
     {
-      "id": 1,
+      "id": "1",
       "username": "Adan bashir",
       "email": "imdedsec1120@gmail.com",
       "password": "**********"
@@ -11,6 +11,12 @@
       "username": "bashir",
       "email": "adan.bashir@student.moringaschool.com",
       "password": "123456789"
+    },
+    {
+      "id": "99aa",
+      "username": "moringa",
+      "email": "moringa22@gmail.com",
+      "password": "123458t84u"
     }
   ]
 }
