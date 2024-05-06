@@ -210,26 +210,6 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.close {
-    color: rgba(170, 170, 170, 1);
-    float: right;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.close:focus {
-    color: rgba(0, 0, 0, 1);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.close:hover {
-    color: rgba(0, 0, 0, 1);
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .forminfo {
     margin-bottom: 20px;
 }
